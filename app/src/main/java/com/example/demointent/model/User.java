@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class User implements Serializable {
     private int yosh;
     private String name;
-    public User(int id, String name){
+    public User(int yosh, String name){
         this.yosh=yosh;
         this.name=name;
     }
