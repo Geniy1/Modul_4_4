@@ -17,6 +17,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         initViews();
+
         }
         void initViews(){
             TextView tv_detail=findViewById(R.id.tv_detail);
